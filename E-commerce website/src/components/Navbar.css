@@ -1,0 +1,33 @@
+.navbar {
+    background: linear-gradient(to right, #1e1e2f, #23233a); /* Dark gradient background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px; /* More spacing */
+}
+
+.navbar a {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #e0e0e0;
+    text-decoration: underline; /* Subtle hover effect */
+}
+
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 20px; /* More spacing between menu items */
+}

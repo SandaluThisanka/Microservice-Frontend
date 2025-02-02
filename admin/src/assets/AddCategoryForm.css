@@ -1,0 +1,72 @@
+.formStyle {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: #31109e;
+  }
+  
+  .formGroupStyle {
+    margin-bottom: 20px;
+  }
+  
+  .formGroupStyle label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #e6ecec;
+  }
+  
+  .inputStyle {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #0e0d0d;
+  }
+  
+  .fileUpload {
+    display: flex;
+    align-items: center;
+  }
+  
+  .fileLabel {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .fileLabel:hover {
+    background-color: #0056b3;
+  }
+  
+  .fileName {
+    font-size: 14px;
+    color: #007bff;
+  }
+  
+  .buttonStyle {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .buttonStyle:hover {
+    background-color: #218838;
+  }
+
+  

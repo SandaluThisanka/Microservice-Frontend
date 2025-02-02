@@ -1,0 +1,96 @@
+/* General container styling */
+.login-container {
+  width: 100%;
+  max-width: 350px;
+  margin: 100px auto;
+  padding: 30px;
+  background: #f3f3f3;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Title */
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input fields */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  text-indent: 10px;
+  background: #fff;
+}
+
+/* Remember me & Forgot password */
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.remember-forgot input {
+  margin-right: 5px;
+}
+
+.forgot-link {
+  color: #666;
+  cursor: pointer;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+/* Sign In Button */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-button:disabled {
+  background: grey;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Sign Up Section */
+.signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-link {
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
